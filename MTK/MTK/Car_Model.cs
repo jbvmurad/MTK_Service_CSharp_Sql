@@ -127,7 +127,7 @@ namespace MTK
 
         private void AddToDatabase(Car_Model car)
         {
-            string connectionString = "Server=DESKTOP-738P60L\\SQLEXPRESS;Database=MTK;Integrated Security=True;TrustServerCertificate=True;";
+            string connectionString = "Server=Name;Database=Table;Integrated Security=True;TrustServerCertificate=True;";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
